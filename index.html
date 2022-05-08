@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     <!--==================== iconscout ====================-->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
@@ -14,14 +14,30 @@
     <!--==================== CSS ====================-->
     <link rel="stylesheet" href="assets/css/styles.css">
 
-    <title>Emanuel Portfolio Website</title>
+    <!-- favicon -->
+
+    <link rel="apple-touch-icon" sizes="180x180"
+        href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32"
+        href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16"
+        href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg"
+        color="#5bbad5">
+
+    <meta name="author" content="Emanuel Raul Rodrigues">
+    <meta name="description" content="WebFacil">
+    <meta name="keywords" content="Programação, Desenvolvimento, web, php, html, it, tecnologia">
+    <title>WebFacil</title>
 </head>
 
 <body>
     <!--==================== HEADER ====================-->
+    
     <header class="header" id="header">
         <nav class="nav container">
-            <a href="#main" class="nav_logo">Emanuel</a>
+            <a href="#main" class="nav_logo">WebFacil</a>
            
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list grid">
@@ -32,17 +48,17 @@
                     </li>
                     <li class="nav__item">
                         <a href="#about" class="nav__link ">
-                            <i class="uil uil-user"></i> About
+                            <i class="uil uil-user"></i> Acerca
                         </a>
                     </li>
                     <li class="nav__item">
                         <a href="#skills" class="nav__link ">
-                            <i class="uil uil-wrench"></i> Skills
+                            <i class="uil uil-wrench"></i> Habilidades
                         </a>
                     </li>
                     <li class="nav__item">
                         <a href="#services" class="nav__link ">
-                            <i class="uil uil-briefcase-alt"></i> Services
+                            <i class="uil uil-briefcase-alt"></i> Serviços
                         </a>
                     </li>
                     <li class="nav__item">
@@ -52,7 +68,7 @@
                     </li>
                     <li class="nav__item">
                         <a href="#contactme" class="nav__link ">
-                            <i class="uil uil-envelope-alt"></i> Contact me
+                            <i class="uil uil-envelope-alt"></i> Contactos
                         </a>
                     </li>
                 </ul>   
@@ -106,13 +122,13 @@
                         </svg>
                     </div>
 
-                    <div class="home__data">
-                        <h1 class="home__title">Hi, I'm Emanuel</h1>
-                        <h3 class="home__subtitle">Developer</h3>
-                        <p class="home__description">Experience in web development,
-                            producing hight quality work.</p>
+                    <div class="home__data ">
+                        <h1 class="home__title ">Olá, sou o Emanuel</h1>
+                        <h3 class="home__subtitle">Programador</h3>
+                        <p class="home__description">Experiência em desenvolvimento em conteúdos web,
+                            criação de conteúdos de alta qualidade.</p>
                         <a href="#contactme" class="button button--flex">
-                            Contact Me<i class="uil uil-message button__icon"></i>
+                            Fale comigo<i class="uil uil-message button__icon"></i>
                         </a>
                     </div>
                 </div>
@@ -120,7 +136,7 @@
                 <div class="home__scroll">
                     <a href="#about" class="home__scroll-button button--flex">
                         <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-                        <span class="home__scroll-name">Scroll down</span>
+                        <span class="home__scroll-name">Deslizar !</span>
                         <i class="uil uil-arrow-down home__scroll-arrow"></i>
                     </a>
                 </div>
@@ -129,37 +145,38 @@
 
         <!--==================== ABOUT ====================-->
         <section class="about section" id="about">
-            <h2 class="section__title">About Me</h2>
-            <span class="section__subtitle">My Story</span>
+            <h2 class="section__title ">Acerca</h2>
+            <span class="section__subtitle">Minha História</span>
 
             <div class="about__container container grid">
-                <img src="assets/img/about.jpeg" class="about__img" alt="">
+                <img src="assets/img/about.jpeg" class="about__img" alt="emanuel">
 
                 <div class="about__data">
-                    <p class="about__description">Hello there, my name is Emanuel i'm what you can call a FullStack developer.
-                        If you need an website or an web aplication to boost your bussiness.<br><br>
-                        Give me a call and we can do it together.
-                    </p>
+                    <p class="about__description">Olá o meu nome é Emanuel, tenho <span id="age"></span> anos e sou um programador FullStack.<br>
+                        Especializado em PHP<br>
+                        Quer ter o seu site ou a sua aplicação online, nas nuvens... fale comigo.
+                        É Fácil!
+                    </p> 
 
                     <div class="about__info">
                         <div>
-                            <span class="about__info-title">08+</span>
-                            <span class="about__info-name">Years <br> experience </span>
+                            <span class="about__info-title">10</span>
+                            <span class="about__info-name">Anos <br> Experiência </span>
                         </div>
 
                         <div>
-                            <span class="about__info-title">20+</span>
-                            <span class="about__info-name">projects <br> done </span>
+                            <span class="about__info-title">10+</span>
+                            <span class="about__info-name">Projetos <br> realizados </span>
                         </div>
 
                         <div>
-                            <span class="about__info-title">02+</span>
-                            <span class="about__info-name">Company's <br> worked </span>
+                            <span class="about__info-title">03</span>
+                            <span class="about__info-name">Empresas</span>
                         </div>
                     </div>
                     <div class="about__buttons">               
                         <a target="_blank" href="https://jarbbas.github.io/ResumeOnline/" class="button button--flex">
-                            View CV<i class="uil uil-window button__icon"></i>
+                            Curriculum<i class="uil uil-window button__icon"></i>
                         </a>
                     </div>
                 </div>
@@ -168,8 +185,8 @@
 
         <!--==================== SKILLS ====================-->
         <section class="skills section" id="skills">
-            <h2 class="section__title">Skills</h2>
-            <span class="section__subtitle">My tecnical level</span>
+            <h2 class="section__title">Habilidades Técnicas</h2>
+            <span class="section__subtitle">Especialidades</span>
 
             <div class="skills__container container grid">
                 <div>
@@ -180,7 +197,7 @@
 
                             <div>
                                 <h1 class="skills_titles">Backend developer</h1>
-                                <span class="skills__subtitle">More then 10 years</span>
+                                <span class="skills__subtitle">Mais de 10 years</span>
                             </div>
 
                             <i class="uil uil-angle-down skills__arrow"></i>
@@ -258,10 +275,10 @@
                             <div class="skills_data">
                                 <div class="skills__titles">
                                     <h3 class="skills_name">JavaScript</h3>
-                                    <span class="skills_number">40%</span>
+                                    <span class="skills_number">60%</span>
                                 </div>
                                 <div class="skills__bar">
-                                    <span class="skills__percentages skills__40"></span>
+                                    <span class="skills__percentages skills__60"></span>
                                 </div>
                             </div>
                             <!--==================== SKILL 4 ====================-->
@@ -295,8 +312,8 @@
                         <div class="skills__header">
                             <i class="uil uil-chart-line skills__icon"></i>
                             <div>
-                                <h1 class="skills_title">Bussines Model</h1>
-                                <span class="skills__subtitle">cloud systems</span>
+                                <h1 class="skills_title">Modelo Negócio</h1>
+                                <span class="skills__subtitle">Sistem Cloud</span>
                             </div>
 
                             <i class="uil uil-angle-down skills__arrow"></i>
@@ -341,18 +358,18 @@
 
         <!--==================== QUALIFICATION ====================-->
         <section class="qualification section">
-            <h2 class="section__title">Qualifications</h2>
-            <span class="section__subtitle">My personal journey</span>
+            <h2 class="section__title">Qualificações</h2>
+            <span class="section__subtitle">Minha jornada pessoal</span>
 
             <div class="qualification__container container">
                 <div class="qualification__tabs">
                     <div class="qualification__button button--flex qualification__active" data-target="#education">
                         <i class="uil uil-graduation-cap qualification__icon"></i>
-                        Education
+                        Educação
                     </div>
                     <div class="qualification__button button--flex" data-target="#work">
                         <i class="uil uil-briefcase-alt qualification__icon"></i>
-                        Work
+                        Trabalho
                     </div>
                 </div>
 
@@ -362,7 +379,7 @@
                         <!--==================== QUALIFICATION 1 ====================-->
                         <div class="qualification__data">
                             <div>
-                                <h3 class="qualification__title">Computer Enginner</h3>
+                                <h3 class="qualification__title">Engenharia Informática</h3>
                                 <span class="qualification__subtitle">Lisboa - Lusófuna</span>
                                 <div class="qualification__calendar">
                                     <i class="uil uil-calendar-alt"></i>
@@ -423,7 +440,7 @@
                             </div>
 
                             <div>
-                                <h3 class="qualification__title">Microsoft Azure Fundamentals </h3>
+                                <h3 class="qualification__title">Certificações Microsoft </h3>
                                 <span class="qualification__subtitle">Lisboa - Rumos </span>
                                 <div class="qualification__calendar">
                                     <i class="uil uil-calendar-alt"></i>
@@ -433,7 +450,7 @@
                         </div>
 
                         <!--==================== QUALIFICATION 5 ====================-->
-                        <div class="qualification__data">
+                        <!-- <div class="qualification__data">
                             <div>
                                 <h3 class="qualification__title">Microsoft Power Platform Fundamentals</h3>
                                 <span class="qualification__subtitle">Lisboa - Rumos </span>
@@ -447,10 +464,10 @@
                                 <span class="qualification__rounder"></span>
                                 <span class="qualification__line"></span>
                             </div>
-                        </div> 
+                        </div>  -->
 
                         <!--==================== QUALIFICATION 6 ====================-->
-                        <div class="qualification__data">
+                        <!-- <div class="qualification__data">
                             <div></div>
 
                             <div>
@@ -466,7 +483,7 @@
                                     2021 - 2022
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div> 
                     <!--==================== QUALIFICATION WORK ====================-->
                     <div class="qualification__content" data-content id="work">
@@ -534,7 +551,8 @@
                         </div>
 
                         <div>
-                            <h3 class="qualification__title">Freelance Work </h3>
+                            <h3 class="qualification__title">Trabalho independente
+                            </h3>
                             <span class="qualification__subtitle">online</span>
                             <div class="qualification__calendar">
                                 <i class="uil uil-calendar-alt"></i>
@@ -550,19 +568,19 @@
 
         <!--==================== SERVICES ====================-->
         <section class="services section" id="services">
-            <h2 class="section__title">Services</h2>
-            <span class="section__subtitle">What i offer</span>
+            <h2 class="section__title">Serviços</h2>
+            <span class="section__subtitle">O que posso lhe oferecer</span>
 
             <div class="services__container container grid">
                 <!--==================== SERVICES 1====================-->
                 <div class="services__content">
                     <div>
                         <i class="uil uil-window services__icon"></i>
-                        <h3 class="services__title">Web <br> Pages</h3>
+                        <h3 class="services__title">Páginas <br> Web</h3>
                     </div>
 
                     <span class="button button--flex button--small button--link services__button">
-                        View More
+                        Ver mais
                         <i class="uil uil-arrow-right button__icon"></i>
                     </span>
 
@@ -574,15 +592,15 @@
                             <ul class="services__modal-services grid">
                                 <li class="services__modal-service">
                                     <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>I develop your personal WebPages</p>
+                                    <p>Criação de Página Web</p>
                                 </li>
                                 <li class="services__modal-service">
                                     <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Mobile friendly</p>
+                                    <p>Páginas responsivas, adaptáveis a todos os ecrãs</p>
                                 </li>
                                 <li class="services__modal-service">
                                     <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Clean and Simple</p>
+                                    <p>Simples e eficazes</p>
                                 </li>
                             </ul>
                         </div>
@@ -592,27 +610,27 @@
                 <div class="services__content">
                     <div>
                         <i class="uil uil-wordpress services__icon"></i>
-                        <h3 class="services__title">CMS <br> Pages</h3>
+                        <h3 class="services__title">Páginas para conteúdos de gestão</h3>
                     </div>
 
                     <span class="button button--flex button--small button--link services__button">
-                        View More
+                        Ver mais
                         <i class="uil uil-arrow-right button__icon"></i>
                     </span>
 
                     <div class="services__modal">
                         <div class="services__modal-content">
-                            <h4 class="services__modal-title">CMS <br> Pages</h4>
+                            <h4 class="services__modal-title">Conteúdos de gestão</h4>
                             <i class="uil uil-times services__modal-close"></i>
 
                             <ul class="services__modal-services grid">
                                 <li class="services__modal-service">
                                     <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>WordPress websites.</p>
+                                    <p>WordPress websites</p>
                                 </li>
                                 <li class="services__modal-service">
                                     <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Customs web content management systems</p>
+                                    <p>Websites com backoffice personalizados</p>
                                 </li>
                                 <li class="services__modal-service">
                                     <i class="uil uil-check-circle services__modal-icon"></i>
@@ -626,35 +644,31 @@
                 <div class="services__content">
                     <div>
                         <i class="uil uil-apps services__icon"></i>
-                        <h3 class="services__title">Web <br> Applications</h3>
+                        <h3 class="services__title">Aplicações <br> Web</h3>
                     </div>
 
                     <span class="button button--flex button--small button--link services__button">
-                        View More
+                        Ver mais
                         <i class="uil uil-arrow-right button__icon"></i>
                     </span>
 
                     <div class="services__modal">
                         <div class="services__modal-content">
-                            <h4 class="services__modal-title">Web <br> Applications</h4>
+                            <h4 class="services__modal-title">Aplicações <br> Web</h4>
                             <i class="uil uil-times services__modal-close"></i>
 
                             <ul class="services__modal-services grid">
                                 <li class="services__modal-service">
                                     <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>I develop your web aplication </p>
+                                    <p>Aplicações hospedadas na nuvem </p>
                                 </li>
                                 <li class="services__modal-service">
                                     <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Security.</p>
+                                    <p>Disponíveis em todas as plataformas</p>
                                 </li>
                                 <li class="services__modal-service">
                                     <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Routing.</p>
-                                </li>
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>System maintenance.</p>
+                                    <p>Segurança</p>
                                 </li>
                             </ul>
                         </div>
@@ -666,7 +680,7 @@
         <!--==================== PORTFOLIO ====================-->
         <section class="portfolio section" id="portfolio">
             <h2 class="section__title">Portfolio</h2>
-            <span class="section__subtitle">Most recent work</span>
+            <span class="section__subtitle">Trabalho recentes</span>
 
             <div class="portfolio__container container swiper-container">
                 <div class="swiper-wrapper">
@@ -675,9 +689,8 @@
                         <img src="assets/img/portfolio1.jpg" class="portfolio__img" alt="portfolio__img">
 
                         <div class="portfolio__data">
-                            <h3 class="portfolio__title">Modern Website</h3>
-                            <p class="portfolio__description">Website adaptable to all devices, with ui components and
-                                modern look.
+                            <h3 class="portfolio__title">Páginas modernas</h3>
+                            <p class="portfolio__description">Páginas modernas e ajustáveis a todos os ecrãs
                             </p>
                             <a href="https://jarbbas.github.io/ANE/" target="_blank" class="button button--flex button--small portfolio__button">
                                 Demo
@@ -690,8 +703,8 @@
                         <img src="assets/img/portfolio2.jpg" class="portfolio__img" alt="portfolio__img">
 
                         <div class="portfolio__data">
-                            <h3 class="portfolio__title">Customs content management systems</h3>
-                            <p class="portfolio__description">Develop customs management systems for bussiness scalling according your needs
+                            <h3 class="portfolio__title">Páginas para conteúdos de gestão personalizaveis</h3>
+                            <p class="portfolio__description">Desenvolvimento de páginas para gestão de conteúdos
                             </p>
                             <a href="https://asasetubal.pt/" target="_blank" class="button button--flex button--small portfolio__button">
                                 Demo
@@ -704,10 +717,25 @@
                         <img src="assets/img/portfolio3.jpg" class="portfolio__img" alt="portfolio__img">
 
                         <div class="portfolio__data">
-                            <h3 class="portfolio__title">Mobile Friendly Website</h3>
-                            <p class="portfolio__description">Mobile frits approach website, diferent visuals depending your screen size 
+                            <h3 class="portfolio__title">Páginas e aplicações para telemóveis</h3>
+                            <p class="portfolio__description">Criação de páginas e aplicações que se ajustam aos ecrãs dos vossos telemóveis,
+                                independente do sistema operativo
                             </p>
                             <a href="https://jarbbas.github.io/MementoMori/" target="_blank" class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--==================== PORTFOLIO 4 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/portfolio4.png" class="portfolio__img" alt="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Aplicações online</h3>
+                            <p class="portfolio__description">Rápidas e disponíveis em todas as plataformas
+                            </p>
+                            <a href="https://jarbbas.github.io/treinoSeries/" target="_blank" class="button button--flex button--small portfolio__button">
                                 Demo
                                 <i class="uil uil-arrow-right button__icon"></i>
                             </a>
@@ -729,32 +757,27 @@
         </section>
 
         <!--==================== PROJECT IN MIND ====================-->
-        <section class="project section">
+        <section class="project section lineUp">
             <div class="project__bg">
                 <div class="project__container container grid">
                     <div class="project__data">
-                        <h2 class="project__title">Do you have an ideia <i class="uil uil-lightbulb-alt"></i></h2>
-                        <p class="project__description">Contact me and together we will build it together
+                        <h2 class="project__title">Tem uma ideia ? <i class="uil uil-lightbulb-alt"></i></h2>
+                        <p class="project__description">Quer ver a sua ideia online e ganhar asas! fale comigo é fácil
                         </p>
                         <a href="#contactme" class="button button--flex button--white">
-                            Contact me
+                            Diga olá !
                             <i class="uil uil-message project__icon button__icon"></i>
                         </a>
                     </div>
-                    <svg width="220.304005" height="165.377999" viewBox="0 0 144.304005 238.377999"><defs id="SvgjsDefs1001">
-                    </defs>
-                    <g id="SvgjsG1007" featurekey="Wg4LIr-0" transform="matrix(10.477658304799025,0,0,10.477658304799025,24.665641185095406,-52.55316109984368)" fill="#ffffff">
-                    <path d="M0.7 14.08 l0 -2.14 l7.38 0 l0 2.14 l-7.38 0 z M0.7 20 l0 -2.18 l7.38 0 l0 2.18 l-7.38 0 z M0.7 9.12 l0 -2.1 l7.38 0 l0 2.1 l-7.38 0 z"></path></g>
-                    <g id="SvgjsG1008" featurekey="qafomr-0" transform="matrix(1.7,0,0,1.7,-2.040000081062317,166.03800058364868)" fill="#ffffff">
-                   <path d="M4.42 17.04 l5.74 0 l0 2.96 l-6.14 0 l-2.82 0 l0 -14 l3.22 0 l5.56 0 l0 2.96 l-5.56 0 l0 2.54 l4.16 0 l0 2.9 l-4.16 0 l0 2.64 z M25.98 9.44 c2.22 0 4.18 1.44 4.18 4.96 l0 5.6 l-3.16 0 l0 -5.5 c0 -1.32 -0.56 -2.32 -2.02 -2.32 c-1.22 0 -2.04 1.08 -2.28 2.04 l0 5.78 l-3.16 0 l0 -5.5 c0 -1.32 -0.82 -2.32 -2.02 -2.32 c-1.3 0 -2.08 0.88 -2.28 2.04 l0 5.78 l-3.16 0 l0 -10.4 l3.16 0 l0 1.9 c0.04 -0.48 1.06 -2.06 3.1 -2.06 c1.5 0 2.94 0.8 3.8 2.26 c0.24 -0.56 1.44 -2.26 3.84 -2.26 z M39.56 9.6 l3.16 0 l0 10.4 l-3.16 0 l0 -1.04 c-0.14 0.36 -1.08 1.24 -2.68 1.24 c-2.38 0 -5.12 -1.7 -5.12 -5.42 c0 -3.58 2.74 -5.36 5.12 -5.36 c1.6 0 2.54 0.92 2.68 1.14 l0 -0.96 z M37.34 17.42 c1.3 0 2.36 -0.9 2.36 -2.64 c0 -1.68 -1.06 -2.58 -2.36 -2.58 c-1.36 0 -2.52 0.92 -2.52 2.58 c0 1.72 1.16 2.64 2.52 2.64 z M51.14 9.44 c1.94 0 3.92 1.3 3.92 4.6 l0 5.96 l-3.16 0 l0 -5.74 c0 -1.58 -0.54 -2.08 -1.54 -2.08 c-1.42 0 -2.24 1.38 -2.44 1.98 l0 5.84 l-3.16 0 l0 -10.4 l3.16 0 l0 1.8 c0.2 -0.5 1.26 -1.96 3.22 -1.96 z M60.78 20.16 c-1.94 0 -3.92 -1.3 -3.92 -4.6 l0 -5.96 l3.16 0 l0 5.74 c0 1.58 0.54 2.08 1.54 2.08 c1.42 0 2.24 -1.38 2.44 -1.98 l0 -5.84 l3.16 0 l0 10.4 l-3.16 0 l0 -1.8 c-0.2 0.5 -1.26 1.96 -3.22 1.96 z M74.36000000000001 9.42 c2.36 0 5.66 1.78 5 6.48 l-7.26 0 c0.36 1.08 1.3 1.64 2.56 1.64 c1.28 0 1.68 -0.28 2.4 -0.58 l1.74 1.68 c-0.92 0.9 -2.16 1.56 -4.26 1.56 c-2.58 0 -5.66 -1.78 -5.66 -5.36 c0 -3.64 3.12 -5.42 5.48 -5.42 z M74.36000000000001 12.120000000000001 c-0.9 0 -1.82 0.52 -2.22 1.56 l4.42 0 c-0.32 -1.04 -1.3 -1.56 -2.2 -1.56 z M84.32000000000002 5.859999999999999 l0 14.14 l-3.16 0 l0 -14.14 l3.16 0 z"></path></g></svg>
+                   <img src="assets/img/dev_php.png" alt="developer PHP">
                 </div>
             </div>
         </section>
 
         <!--==================== TESTIMONIAL ====================-->
         <section class="testimonial section">
-            <h2 class="section__title">Testimonial</h2>
-            <span class="section__subtitle">My clients saying</span>
+            <h2 class="section__title">Testemunhos</h2>
+            <span class="section__subtitle">O que as pessoas dizem de mim</span>
 
             <div class="testimonial__container container swiper-container">
                 <div class="swiper-wrapper">
@@ -762,12 +785,12 @@
                     <div class="testimonial__content swiper-slide">
                         <div class="testimondia__data">
                             <div class="testimonial__header">
-                                <img src="assets/img/serrano.jpg" alt="" class="testimonial__img">
+                                <img src="assets/img/testemunho1.jpg" alt="" class="testimonial__img">
                             </div>
 
                             <div>
                                 <h3 class="testimonial__name">José Serrano</h3>
-                                <span class="testimonial__client">Client</span>
+                                <span class="testimonial__client">Presidente da Associação de Atletismo de Setúbal</span>
                             </div>
                         </div>
 
@@ -789,12 +812,12 @@
                     <div class="testimonial__content swiper-slide">
                         <div class="testimondia__data">
                             <div class="testimonial__header">
-                                <img src="assets/img/testimonial2.jpg" alt="" class="testimonial__img">
+                                <img src="assets/img/testemunho2.jpg" alt="" class="testimonial__img">
                             </div>
 
                             <div>
-                                <h3 class="testimonial__name">Zé Maria</h3>
-                                <span class="testimonial__client">Client</span>
+                                <h3 class="testimonial__name">Filipe Mira</h3>
+                                <span class="testimonial__client">Business Intelligence: Analista de Dados e Reporting | Sub-Coordenador de Serviços e Informação na PT Sales</span>
                             </div>
                         </div>
 
@@ -803,27 +826,50 @@
                             <i class="uil uil-star testimonial__icon-star button__icon"></i>
                             <i class="uil uil-star testimonial__icon-star button__icon"></i>
                             <i class="uil uil-star testimonial__icon-star button__icon"></i>
-                            <i class="uil uil-star testimonial__icon-star button__icon"></i>
                         </div>
 
 
                         <p class="testimonial__description">
-                            I get a good impression, I carry out my project with all the possible quality and attention
-                            and
-                            support 24 hours a day.
+                            A sua dedicação e resiliência ultrapassam qualquer adversidade. Sempre disponível e muito criativo, tem produzido soluções eficazes e essenciais para a modernização a empresa.
                         </p>
                     </div>
 
                     <!--==================== TESTIMONIAL 3 ====================-->
-                    <div class="testimonial__content swiper-slide">
+                    <!-- <div class="testimonial__content swiper-slide">
                         <div class="testimondia__data">
                             <div class="testimonial__header">
-                                <img src="assets/img/testimonial3.jpg" alt="" class="testimonial__img">
+                                <img src="assets/img/testemunho3.jpg" alt="" class="testimonial__img">
                             </div>
 
                             <div>
-                                <h3 class="testimonial__name">O gordinho</h3>
-                                <span class="testimonial__client">Client</span>
+                                <h3 class="testimonial__name">Gonçalo luz</h3>
+                                <span class="testimonial__client">Business Intelligence Developer na NOS Portugal</span>
+                            </div>
+                        </div>
+
+                        <div>
+                            <i class="uil uil-star testimonial__icon-star button__icon"></i>
+                            <i class="uil uil-star testimonial__icon-star button__icon"></i>
+                            <i class="uil uil-star testimonial__icon-star button__icon"></i>
+                            <i class="uil uil-star testimonial__icon-star button__icon"></i>
+                        </div>
+
+
+                        <p class="testimonial__description">
+                            Quando tive a oportunidade de trabalhar com ele, rapidamente vi que se tratava de um jovem ambicioso e motivado
+                        </p>
+                    </div> -->
+
+                    <!--==================== TESTIMONIAL 4 ====================-->
+                    <div class="testimonial__content swiper-slide">
+                        <div class="testimondia__data">
+                            <div class="testimonial__header">
+                                <img src="assets/img/testemunho4.jpg" alt="" class="testimonial__img">
+                            </div>
+
+                            <div>
+                                <h3 class="testimonial__name">Renan Lima</h3>
+                                <span class="testimonial__client">Escritor</span>
                             </div>
                         </div>
 
@@ -837,9 +883,39 @@
 
 
                         <p class="testimonial__description">
-                            I get a good impression, I carry out my project with all the possible quality and attention
-                            and
-                            support 24 hours a day.
+                            Emanuel é um cara prestativo com um conhecimento abrangente na área de TI, 
+                            sempre disposto a ajudar com ideias inovadoras e simples de se executar 
+                            sua curiosidade acaba nos afetando nos levando à aprender mais.
+
+                        </p>
+                    </div>
+
+                    <!--==================== TESTIMONIAL 5 ====================-->
+                    <div class="testimonial__content swiper-slide">
+                        <div class="testimondia__data">
+                            <div class="testimonial__header">
+                                <img src="assets/img/testemunho5.jpg" alt="" class="testimonial__img">
+                            </div>
+
+                            <div>
+                                <h3 class="testimonial__name">Bárbara Silva</h3>
+                                <span class="testimonial__client"> Full Stack Web Developer</span>
+                            </div>
+                        </div>
+
+                        <div>
+                            <i class="uil uil-star testimonial__icon-star button__icon"></i>
+                            <i class="uil uil-star testimonial__icon-star button__icon"></i>
+                            <i class="uil uil-star testimonial__icon-star button__icon"></i>
+                            <i class="uil uil-star testimonial__icon-star button__icon"></i>
+                            <i class="uil uil-star testimonial__icon-star button__icon"></i>
+                        </div>
+
+
+                        <p class="testimonial__description">
+                            Emanuel is a great colleague and an excellent professional. Always available to help, teach and motivate. I'm sure it will bring a lot of value to any company. Thanks you!
+
+
                         </p>
                     </div>
                       
@@ -851,8 +927,8 @@
 
         <!--==================== CONTACT ME ====================-->
         <section class="contact section" id="contactme">
-            <h2 class="section__title">Contact me</h2>
-            <span class="section__subtitle">Get in touch</span>
+            <h2 class="section__title">Contactos </h2>
+            <span class="section__subtitle">Fale comigo</span>
 
             <div class="contact__container container grid">
                 <div>
@@ -860,23 +936,23 @@
                         <i class="uil uil-phone contact__icon"></i>
 
                         <div>
-                            <h3 class="contact__title">Call me</h3>
-                            <span class="contact__subtitle">966416895</span>
+                            <h3 class="contact__title">Ligar</h3>
+                            <span class="contact__subtitle"><a href="tel:966416895">966416895</a></span>
                         </div>
                     </div>
                     <div class="contact__information">
                         <i class="uil uil-envelope contact__icon"></i>
 
                         <div>
-                            <h3 class="contact__title">Email</h3>
-                            <span class="contact__subtitle">raulafonso88@gmail.com</span>
+                            <h3 class="contact__title">Envie um e-mail</h3>
+                            <span class="contact__subtitle"><a href="mailto:emanuel.raul.rodrigues@gmail.com">emanuel.raul.rodrigues@gmail.com</a></span>
                         </div>
                     </div>
                     <div class="contact__information">
                         <i class="uil uil-map-marker contact__icon"></i>
 
                         <div>
-                            <h3 class="contact__title">Location</h3>
+                            <h3 class="contact__title">Encontro-me</h3>
                             <span class="contact__subtitle">Portugal - Lisboa</span>
                         </div>
                     </div>
@@ -884,22 +960,22 @@
                 <form action="https://formspree.io/f/xeqnpzqq" method="POST" class="contact__form grid">
                     <div class="contact__inputs grid">
                         <div class="contact__content">
-                            <label for="" class="contact_label">Name</label>
+                            <label for="" class="contact_label">Nome</label>
                             <input type="text" name="name" required class="contact__input">
                         </div>
                         <div class="contact__content">
-                            <label for="" class="contact_label">Email</label>
+                            <label for="" class="contact_label">E-mail</label>
                             <input type="email" name="email" required class="contact__input">
                         </div>
                     </div>
                     <div class="contact__content">
-                        <label for="" class="contact_label">Message</label>
+                        <label for="" class="contact_label">Mensagem</label>
                         <textarea name="message" required cols="0" rows="7" class="contact__input"></textarea>
                     </div>
 
                     <div>
                         <button type="submit" class="button button--flex">
-                            Send me a message
+                            Envie-me uma mensagem
                             <i class="uil uil-message button__icon"></i>
                         </button>
                     </div>
@@ -914,33 +990,35 @@
             <div class="footer__container container grid">
                 <div>
                     <h1 class="footer__title">Emanuel</h1>
-                    <span class="footer__subtitle">Developer</span>
+                    <span class="footer__subtitle">Programador</span>
                 </div>
 
                 <ul class="footer__links">
                     <li>
-                        <a href="#services" class="footer__link">Services</a>
+                        <a href="#services" class="footer__link">Serviços</a>
                     </li>
                     <li>
                         <a href="#portfolio" class="footer__link">Portfolio</a>
                     </li>
                     <li>
-                        <a href="#contacme" class="footer__link">Contacme</a>
+                        <a href="#contacme" class="footer__link">Contactos</a>
                     </li>
                 </ul>
 
                 <div class="footer__socials">
-                    <a href="#" target="_blank" class="footer__social">
-                        <i class="uil uil-facebook"></i>
-                    </a> 
+                                      
+                    <a href="https://www.linkedin.com/in/emanuel-rodrigues-310030216/" target="_blank" class="footer__social">
+                        <i class="uil uil-linkedin"></i>
+                    </a>
                     
-                    <a href="#" target="_blank" class="footer__social">
-                        <i class="uil uil-instagram"></i>
+                    <a href="https://github.com/Jarbbas" target="_blank" class="footer__social">
+                        <i class="uil uil-github-alt"></i>
                     </a> 
 
-                    <a href="#" target="_blank" class="footer__social">
-                        <i class="uil uil-twitter-alt"></i>
+                    <a href="https://www.facebook.com/emanuel.rodrigues.9047" target="_blank" class="footer__social">
+                        <i class="uil uil-facebook"></i>
                     </a> 
+                        
                 </div>
             </div>
 

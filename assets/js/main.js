@@ -1,3 +1,16 @@
+var dob = new Date("07/22/1988");
+//calculate month difference from current date in time
+var month_diff = Date.now() - dob.getTime();
+
+//convert the calculated difference in date format
+var age_dt = new Date(month_diff); 
+
+//extract year from date    
+var year = age_dt.getUTCFullYear();
+
+//now calculate the age of the user
+var age = Math.abs(year - 1970);
+document.getElementById("age").innerHTML = age;
 /*==================== MENU SHOW Y HIDDEN ====================*/
 const navMenu = document.getElementById('nav-menu'),
       navToggle = document.getElementById('nav-toggle'),
@@ -19,6 +32,9 @@ if(navClose){
     })
 }
 
+setTimeout(function(){
+    document.getElementById('lineup').style.left = '1000px'; // new left position is 1000px in this example
+}, 2000); // 2000 = 2 seconds
 
 /*==================== REMOVE MENU MOBILE ====================*/
 const navLink = document.querySelectorAll('.nav__link')
